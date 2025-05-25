@@ -5,15 +5,15 @@
 }
 
 body {
-    background: linear-gradient(rgb(82, 2, 2), rgb(43, 1, 1));
+    background: linear-gradient(rgb(255, 4, 192), rgb(209, 118, 7));
     min-height: 99vh;
     font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: aliceblue;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
 }
 
 .header {
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 170, 0);
     height: 80px;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 .logo{
-    font-size: 24px;
+    font-size: 30px;
     margin-top: 20px;
 }
 
@@ -43,22 +43,22 @@ body {
     margin-right: 20px;
 }
 .menu__item:hover{
-    border-bottom: 1px solid rgb(226, 85, 85);
+    border-bottom: 1px solid rgb(201, 15, 15);
     color: rgb(209, 70, 70);
     transition: 500ms;
 }
 
 .main{
-    max-width: 1920px;
-    width: 1010px;
+    max-width: 900px;
+    width: 800px;
     margin: 0 auto;
 }
 
 .contacts{
-    border: 2px solid white;
-    margin-top: 40px;
-    border-radius: 20px;
-    padding: 30px;
+    border: 3px solid rgb(252, 85, 85);
+    margin-top: 20px;
+    border-radius: 9px;
+    padding: 3px;
     width: 400px;
 }
 .contacts:nth-child(2){
@@ -66,6 +66,62 @@ body {
 }
 .main__container{
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1040px;
+    align-items: center;
     justify-content: space-between;
 }
-/* @ben228366 */
+
+.tut{
+   max-width: 900px;
+    width: 800px;
+    margin: 0 auto; 
+}
+
+.tut__cont2{
+    display: flex;
+    justify-content: space-between;
+}
+.conta2{
+   border: 2px solid rgb(252, 85, 85);
+    margin-top: 10px;
+    border-radius: 9px;
+    padding: 30px;
+    width: 400px;
+    height: 150px;
+}
+
+
+.tgf{
+    border: 5px solid rgb(252, 85, 85);
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    
+}
+
+.KOH{
+    border: 5px solid rgb(252, 85, 85);
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    display: flow-root;
+   
+    
+}
+
+
+.footer{
+    border-bottom: 10px solid  rgb(255, 170, 0);
+    height: 80px;
+  position: fixed;
+  bottom: 0;
+  width: 100000%;
+  
+}
+
+
+
